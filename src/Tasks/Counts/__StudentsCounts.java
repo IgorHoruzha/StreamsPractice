@@ -1,9 +1,8 @@
-package Tasks.Task4.Counts;
+package Tasks.Counts;
 
 import Models.Student;
 
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class __StudentsCounts {

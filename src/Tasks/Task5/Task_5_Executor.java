@@ -1,8 +1,7 @@
 package Tasks.Task5;
 
 import Models.Student;
-import Tasks.Task4.Counts.__StudentsCounts;
-import Tasks.Task5.Changer.__StudentsChanger;
+import Tasks.Changer.__StudentsChanger;
 import Tools.__Tools;
 
 import java.util.List;

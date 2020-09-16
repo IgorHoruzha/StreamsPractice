@@ -1,9 +1,8 @@
-package Tasks.Task3.Filters;
+package Tasks.Filters;
 
 import Models.Student;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -37,19 +36,7 @@ public class __StudentsFilters {
         return  filteredStudents;
     }
 
-    public  List<String>   filteredByGroupAndMapInitials(List<Student> students, String group){
 
-        Stream<Student> stream =  students.stream();
-
-        List<String>  filteredStudents;
-        filteredStudents = stream
-                .filter(x-> x.getGroup()==group)
-                .map(x->         x.getFirstName()+ " " + x.getLastName()+" " + x.getPatronymic())
-                .collect(Collectors.toList());
-
-
-        return  filteredStudents;
-    }
 
 
 }

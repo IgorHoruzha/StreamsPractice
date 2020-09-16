@@ -4,6 +4,8 @@ import Models.Student;
 import Tasks.Task3.Task_3_Executor;
 import Tasks.Task4.Task_4_Executor;
 import Tasks.Task5.Task_5_Executor;
+import Tasks.Task6.Task_6_Executor;
+import Tasks.Task7.Task_7_Executor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,6 +27,8 @@ public class Main {
         Task_3_Executor.Start(students);
         Task_4_Executor.Start(students);
         Task_5_Executor.Start(students);
+        Task_6_Executor.Start(students);
+        Task_7_Executor.Start(students);
     }
 
 

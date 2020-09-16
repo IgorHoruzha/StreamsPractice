@@ -1,4 +1,4 @@
-package Tasks.Task5.Changer;
+package Tasks.Changer;
 
 import Models.Student;
 
